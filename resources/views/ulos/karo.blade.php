@@ -4,7 +4,7 @@
 @section('header')
     <section id="bg-karo" class="d-flex align-items-center" style="height: 300px;
     width: 100%;
-    background: url(../Image/{{$header->gambar}});
+    background: url(../image/{{$header->gambar}});
     background-size: cover;
     position: relative;
     padding: 0;

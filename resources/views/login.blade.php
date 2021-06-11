@@ -8,11 +8,6 @@
   <link rel="stylesheet" href="{{ asset('css')}}/loginstyle.css" >
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <title>Login Admin</title>
-  <style>
-  b{
-    color: white;
-  }
-  </style>
 </head>
 <body style='background-image: url("{{asset('image')}}/{{ $web->gambar }} ");'>
   <nav class="navbar navbar-expand-lg navbar-light">
