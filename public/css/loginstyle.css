@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+body {
+    font-family: "Open Sans", sans-serif;
+    background-size: cover;
+}
+
+.card {
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: rgba(145, 144, 151, 0.56) 0px 22px 70px 4px;
+}
+.title {
+    margin-left: -10px;
+}
+input:focus {
+    border-width: 0 0 4px;
+}
+.btn {
+    background-color: #1685e6;
+    color: white;
+    font-weight: bold;
+    width: 8rem;
+    border-radius: 20px;
+    letter-spacing: 3px;
+}
+.btn:hover {
+    background-color: rgb(222, 233, 127);
+    color: rgb(221, 78, 11);
+}
+.row .rounded {
+    width: 40rem;
+}
+/*/ Responsive /*/
+@media (max-width: 768px) {
+    .row .rounded {
+        width: auto;
+    }
+}
+/* 
+@media (min-width: 1000px) {
+    .join-us .col-md-3 {
+        margin-left: 70px;
+    }
+} */

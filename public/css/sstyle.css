@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+body {
+    font-family: "Open Sans", sans-serif;
+}
+body {
+    background-size: cover;
+    /* top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%; */
+    background-attachment: fixed;
+}
+h1 {
+    font-family: "Courgette", cursive;
+    font-family: "Gothic A1", sans-serif;
+    color: whitesmoke;
+}
+.navbar {
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(5px);
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+        rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+        rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+#nav-web {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+#menu-bar:checked ~ .side-navbar {
+    left: 0;
+}
+#info {
+    padding: 20px;
+    float: right;
+}
+.info1 {
+    display: inline-block;
+    padding: 10px;
+}
+.hero {
+    background-color: rgba(226, 177, 137, 0.7);
+}
+.container a {
+    text-decoration: none;
+}
+.container table {
+    /* border-collapse: collapse; */
+    border-radius: 10px;
+    overflow: hidden;
+}
+.table {
+    border: 1px solid #000000;
+}
+.table-bordered > thead > tr > th,
+.table-bordered > tbody > tr > th {
+    border: 1px solid #000000;
+}
+tr:nth-child(odd) {
+    background-color: rgba(196, 196, 196, 0.7);
+}
+
+tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+.table thead th {
+    background-color: #7abaee;
+}
+.item {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+@media (max-width: 576px) {
+    .side-navbar {
+        top: 0;
+    }
+    body {
+        background-size: cover;
+    }
+}
+@media (max-width: 1140px) {
+    body {
+        height: 100%;
+        background-size: auto;
+    }
+}
+.card {
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.title {
+    margin-left: -10px;
+}
+label {
+    color: #1f618d;
+    font-weight: bold;
+}
+input:focus {
+    border-width: 0 0 4px;
+}

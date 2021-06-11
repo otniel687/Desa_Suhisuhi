@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+body {
+    font-family: "Open Sans", sans-serif;
+    background-size: cover;
+}
+
+.produk .card {
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: rgba(145, 144, 151, 0.56) 0px 22px 70px 4px;
+}
+.pengrajin .card {
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: rgba(145, 144, 151, 0.56) 0px 22px 70px 4px;
+}
+.title {
+    margin-left: -10px;
+}
+input:focus {
+    border-width: 0 0 4px;
+}
+.btn {
+    color: whitesmoke;
+    font-weight: bold;
+    letter-spacing: 3px;
+    border-radius: 10px;
+}
+#galery .btn:hover {
+    background-color: #48a999;
+}
+.btn:hover {
+    background-color: #0095a8;
+    color: whitesmoke;
+}
+
+.produk .btnMore {
+    border-radius: 10px;
+    padding: 2px 30px 2px 30px;
+    background-color: #1976d2;
+    color: whitesmoke;
+}
+
+.produk .btnMore:hover {
+    background-color: #004ba0;
+    color: whitesmoke;
+}
+#footer .btn:hover {
+    background-color: rgb(228, 203, 91);
+}
+#pengrajin .btn:hover {
+    background-color: #ba000d;
+}
+
+#galery .modal-footer .btn:hover {
+    background-color: #ba000d;
+}
+footer a {
+    text-decoration: none;
+    color: cornflowerblue;
+}
