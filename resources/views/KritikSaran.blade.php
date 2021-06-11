@@ -62,7 +62,7 @@
     
   <section id="sopi" class="d-flex align-items-center" style="width: 100%;
     height: 30vh;
-    background: url('../Image/{{ $header->gambar}} ') top center;
+    background: url('../image/{{ $header->gambar}} ') top center;
     background-size: cover;
     position: relative;
     padding: 0;">

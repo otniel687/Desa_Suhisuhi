@@ -3,7 +3,7 @@
 @section('header')
 <section id="header-ulos" class=" d-flex align-items-center" style="height: 100vh;
     width: 100%;
-    background: url(/Image/{{ $header->gambar}});
+    background: url(/image/{{ $header->gambar}});
     background-size: cover;
     position: relative;
     padding: 0;
